@@ -58,9 +58,6 @@ public class MovementAnimationParameterControl : MonoBehaviour
         animator.SetBool(Settings.isWalking, isWalking);
         animator.SetBool(Settings.isRunning, isRunning);
 
-        Debug.Log("set running to: " + isRunning);
-        Debug.Log("animator: " + animator.name);
-
         animator.SetInteger(Settings.toolEffect, (int) toolEffect);
 
         if (isUsingToolRight) 

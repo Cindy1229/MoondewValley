@@ -53,7 +53,6 @@ public class Player : SingletonMonobahaviour<Player>
         PlayerWalkInput();
 
         // trigger animation event
-        Debug.Log("isRUnning: " + isRunning + xInput);
         EventHandler.CallMovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying, toolEffect, isUsingToolRight, isUsingToolLeft,
             isUsingToolUp, isUsingToolDown, isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
             isPickingRight, isPickingLeft, isPickingUp, isPickingDown,

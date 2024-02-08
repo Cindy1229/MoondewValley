@@ -66,7 +66,6 @@ public static class EventHandler
     {
         if (MovementEvent != null)
         {
-            Debug.Log("calling evnet!");
             MovementEvent(inputX, inputY, isWalking, isRunning, isIdle, isCarrying, toolEffect, isUsingToolRight, isUsingToolLeft,
             isUsingToolUp, isUsingToolDown, isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown, isPickingToolRight,
             isPickingToolLeft, isPickingToolUp, isPickingToolDown, isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp,
